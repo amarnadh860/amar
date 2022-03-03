@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0px;
+    
+}
+fieldset{
+    border-color: green;
+    border-width: 3px;
+}
+body{
+    background:seashell;
+}
+#app{
+    width:85%;
+    height:85%;
+    margin:10px auto;
+    background:palegoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 35px;
+    margin:20px;
+    padding: 0 5px;
+    width:fit-content;
+    background-color: palegoldenrod;
+    color:darkgreen;
+    font-weight: 700;
+    font-size:25px;
+}
+hr{ 
+   border: 1px solid rgba(26, 34, 16, 0.562);
+   padding-top: 10px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding-bottom: 10px;
+   margin: 10px auto;
+}
+div #bio img{
+    height: 250px;
+    width:250px;
+    margin:0 auto;
+    border-radius: 125px;
+}
+
+div #bio #showInfo{
+    margin-top: 10px;
+}
+
+div #bio p{
+    padding:10px;
+    word-spacing: 3px;
+}
+
+div #bio{
+    color:black;
+    font-size: 25px;
+    margin:0 auto;
+    letter-spacing: -0.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+}
+
+div #bio p strong{
+    font-size:30px;
+    font-weight: 700;
+    word-spacing: 3px;
+    color:green;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div #bio #skills{
+    background:greenyellow;
+    color:black;
+    font-weight:500;
+    word-spacing: 20px;
+}
+
+div #projects{
+    margin: 0 auto;
+    text-align: left;
+}
+
+div #projects img{
+    height:150px;
+    width:150px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+div #projects > p{
+    font-size: 30px;
+    padding:10px;
+    padding-bottom: 20px;
+    color:orangered;
+    font-weight: 700;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    
+}
+
+div .project{
+    display:inline-block;
+    width:25%;
+    text-align: center;
+    font-size:25px;
+    color:green;
+    padding:20px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    div .project{
+          display:block;
+          width:100%;
+          text-align: center;
+          font-size:25px;
+          color:green;
+          padding:20px 0 ;
+    }
+     
+ }
+
+div .project p{
+    padding:10px 0;
+}
+
+
+div #contact{
+    padding:10px;
+}
+
+div #contact h2{
+    color:orangered;
+    font-size: 30px;
+    padding:0 0 10px 0;
+}
+div #contact  a img {
+    margin:0;
+    padding:10px;
+    height: 50px;
+    width:50px;
+    
+}
