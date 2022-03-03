@@ -1,6 +1,7 @@
 import React from "react";
 import tictactoe from "../../img/tictactoe.png";
 import reactimg from "../../img/react.png"
+import portfolio from "../../img/portfolio.png"
 const projects = ()=>(
     <div id = 'projects'>
         <p>Some of my Projects</p>
@@ -17,9 +18,9 @@ const projects = ()=>(
         </div>
 
         <div id = 'xyz' className="project">
-            <img src ='' ></img>
-            <p> some xyz application that does some abc work </p>
-            <a href='/'>click here to view the project</a>
+            <img src ={portfolio} ></img>
+            <p>Code for this Portfolio site done using react</p>
+            <a href='https://github.com/amarnadh860/amar'>click here to view the project</a>
         </div>
     </div>
 )
