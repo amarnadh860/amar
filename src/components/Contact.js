@@ -2,7 +2,7 @@ import contacts from '../assets/socialContact';
 import React from 'react';
 const MyContact = ()=>(
     <div id = 'contact'> 
-    <h2>Want to contact me!</h2>
+    <h2>Want to contact !</h2>
     <span>
     {   
     

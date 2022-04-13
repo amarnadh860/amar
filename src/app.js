@@ -8,10 +8,7 @@ const jsx = (
     <div id='portfolio'>
        <fieldset>
        <Bio/>
-       <hr/>
        <Projects/> 
-       <hr/>
-       <MyContact/>
        </fieldset>
     </div>  
 )
