@@ -14,9 +14,9 @@ class Bio extends React.Component{
     <div id = 'bio'>
         <div id="profile-card">
             <div>
-                <p>Contact card</p>
+                <h2>Contact card</h2>
                 <img src ={profile} alt = 'profile picture' id = 'profilepic' />
-                <h1>Amarnadh</h1>
+                <p>Amarnadh</p>
                 <p>Web developer</p>
                 <Contact />
             </div>
