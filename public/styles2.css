@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  fieldset{
-    border: none;
+    border:none ;
 } 
 body{
     background:whitesmoke;
@@ -31,6 +31,8 @@ button{
     min-height: 40px;
     font-size: 30px;
     text-align: center;
+    margin: 10px auto;
+    width: 98%;
     padding: 10px;
     color:white;
     background-color: rgb(66, 66, 135);
@@ -73,13 +75,21 @@ button{
     }
 
     #marq{
-        min-height: 30px;
-        font-size: 25px;
-        padding: 10px;
-        color:white;
-        background-color: rgb(66, 66, 135);
+        visibility:hidden;
     }
-#bio{
+
+    #marq p:before {
+        content: 'Welcome';
+        display: block;
+        color:white;
+        width: 100%;
+        background-color: rgb(66, 66, 135);
+        min-height: 50px;
+        font-size: 40px;
+        visibility: visible;
+    }
+
+    #bio{
       display:flex;
       justify-content:space-between;
       flex-direction: column;
@@ -137,6 +147,11 @@ button{
     /* border-radius: 50% ; */
 
 }
+
+div #bio #profile-card #head{
+    text-align: left;
+}
+
 div #bio #profile-card #contact{
     padding:10px;
 }
@@ -146,6 +161,7 @@ div #bio #profile-card #contact h2{
     font-size: 25px;
     padding:0 0 10px 0;
 }
+
 div #bio #profile-card #contact span {
     display:flex ;
     align-items: center;
@@ -295,7 +311,7 @@ div #projects-section #projects .project img{
           padding:20px 0 ;
     }
     div #projects-section #projects .project{
-        width:100%;
+        width:90%;
         margin: 10px auto;
         padding:15px;
     }
